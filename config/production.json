@@ -1,0 +1,14 @@
+{
+    "app": {
+        "name": "autoMate-production-app",
+        "version": 1.0,
+        "author": "Sai Tejaswi",
+        "port": 5002
+
+    },
+    "database": {
+        "url": "mongoDB/production",
+        "username": "mongodb_production",
+        "password":"MONGODB_PRODUCTION_PASSWORD"
+    }
+}

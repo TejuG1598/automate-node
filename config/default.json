@@ -1,0 +1,15 @@
+{
+    "app": {
+        "name": "autoMate-default-app",
+        "version": 1.0,
+        "author": "Sai Tejaswi",
+        "port": 5000
+
+    },
+    "database": {
+        "url": "mongoDB/default",
+        "username": "mongodb_default",
+        "password":"MONGODB_DEFAULT_PASSWORD"
+    }
+}
+    
