@@ -12,10 +12,6 @@ async function dbConnectMiddleware(req ,res, next){
     }catch(err){
         log_info(`${error}`);
     }
-    
-    //    .then((res)=>{
-    //     log_info(`connecting to the datbase ${config.get('database.username')} ${url}`);})
-    //    .catch(err => )
 
     next();
 }

@@ -4,15 +4,3 @@ const mongoose = require('mongoose');
 const OrderSchema = new mongoose.Schema(IOrder);
 
 module.exports = mongoose.model('orders', OrderSchema);
-
-
-
-// {id: Number,
-// name: String,
-// description: String,
-// createdDate: String,
-// status: String,
-// section: String,
-// serviceId: Number,
-// complete: Boolean,
-// payment: Ipayment}

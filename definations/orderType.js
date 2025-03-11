@@ -10,7 +10,7 @@ const IOrder = {
     section: String,
     serviceId: Number,
     complete: Boolean,
-    "payment": Ipayment
+    payment: Ipayment
 }
 
 module.exports = IOrder;
