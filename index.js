@@ -4,14 +4,15 @@ const log_debug= require("debug")("debug");
 const config = require('config');
 const app = express();
 
-// app.get('/orders', (res, req) =>{
+const  ordersRouter = require("./routes/orders");//loading orderRouter
+const staticRouter = require('./routes/static');
+const dbConnectMiddleware = require("./middleware/databaseConnect")//loading the middleware databaseConnect.js
 
-// })
+app.use(express.json()); 
+app.use(dbConnectMiddleware);
 
-// app.get('/orders/id', (res, req) =>{
-
-// })
-
+app.use("/orders",ordersRouter);
+app.use('/',staticRouter);
 
 
 let port = config.get("app.port");
