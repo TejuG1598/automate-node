@@ -7,7 +7,7 @@
 
     },
     "database": {
-        "url": "mongoDB/default",
+        "url": "mongodb://localhost:27017/autoMate-default",
         "username": "mongodb_default",
         "password":"MONGODB_DEFAULT_PASSWORD"
     }
