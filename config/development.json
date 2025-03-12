@@ -7,8 +7,9 @@
 
     },
     "database": {
-        "url": "mongodb://localhost:27017/autoMate-development",
-        "username": "mongodb_development",
-        "password":"MONGODB_DEVELOPMEMT_PASSWORD"
+        "url": "cluster001.eep3w.mongodb.net",
+        "username": "nagasnigdhesh",
+        "name": "automate",
+        "connection_timeout": 3000
     }
 }
