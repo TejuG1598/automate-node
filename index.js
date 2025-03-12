@@ -17,5 +17,5 @@ app.use('/',staticRouter);
 
 let port = process.env.PORT || config.get("app.port");
 app.listen(port,()=>{
-    log_debug(`${config.get("app.name")} is running at ${port}`);
+    log_info(`${config.get("app.name")} is running at ${port}`);
 });

@@ -7,8 +7,9 @@
 
     },
     "database": {
-        "url": "mongodb://localhost:27017/autoMate-production",
+        "url": "localhost:27017",
         "username": "mongodb_production",
-        "password":"MONGODB_PRODUCTION_PASSWORD"
+        "password":"MONGODB_PRODUCTION_PASSWORD",
+        "name": "automate"
     }
 }

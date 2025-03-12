@@ -7,8 +7,9 @@
 
     },
     "database": {
-        "url": "mongodb://localhost:27017/autoMate-testing",
+        "url": "localhost:27017",
         "username": "mongodb_testing",
-        "password":"MONGODB_Testing_PASSWORD"
+        "password":"MONGODB_Testing_PASSWORD",
+        "name": "automate"
     }
 }
