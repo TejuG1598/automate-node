@@ -15,7 +15,7 @@ app.use("/orders",ordersRouter);
 app.use('/',staticRouter);
 
 
-let port = config.get("app.port");
+let port = process.env.PORT || config.get("app.port");
 app.listen(port,()=>{
     log_debug(`${config.get("app.name")} is running at ${port}`);
 });
